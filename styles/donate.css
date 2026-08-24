@@ -1,0 +1,22 @@
+.poppins{
+  font-family: "Poppins", sans-serif;
+}
+/* Shared styles */
+.donate-btn{
+  background-color: rgba(255, 89, 89, 1);
+  padding: 12px;
+  border-radius: 8px;
+  color: white;
+}
+.section-title{
+   font-size: 45px;
+   font-weight: bold;
+   color: rgba(18, 18, 18, 1);
+}
+.description{
+  color: rgba(112, 112, 112, 1);
+  font-size: 18px;
+
+}
+
+/* Header Section */
