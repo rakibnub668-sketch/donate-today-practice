@@ -9,6 +9,12 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.lobster {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* Shared styles */
 .donate-btn{
@@ -170,11 +176,80 @@ background-color: rgba(255, 244, 214, 1);
 }
 /* survive section */
 .survive-img img{
-  width: 460px;
+  width: 550px;
   height: 480px;
 }
 .survive-container{
   display: flex;
-  gap: 83px;
+  justify-content: space-between;
+  width: 1250px;
+  height: 500px;
+  margin: 0 auto;
+  
+}
+.survive-description-box{
+  width: 480px;
+  height: 374px;
+ 
+}
+/* Update section */
+.email-container{
+  margin: 0 auto;
+}
+
+.email-container{
+  background-color: #FFF4D6;
+  width: 809px;
+  height: 200px;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+form{
+  display: flex;
+  gap: 0;
+}
+.email-container input[type="email"]{
+  background-color: #D9D9D9;
+  width: 275px;
+  height: 48px;
+  border: none;
+  font-size: 16px;
+  color: #AA9F9F;
+  outline: none;
+  padding: 14px 17px;
+  border-radius: 10px 0px 0px 10px;
+
+
+}
+.subscribe-btn{
+  width: 157px;
+  height: 75px;
+  background-color: #FF5959;
+  color: #FFFFFF;
+  border: none;
+  padding: 14px 42px;
+  font-size: 16px;
+  border-radius: 0px 10px 10px 0px;
+  
+}
+/* Footer Section */
+.footer{
+  background-color: black;
+  height: 177px;
+  width: 100%;
+  padding: 43px 0 43px 0;
+  margin-top: 130px;
+}
+
+.footer-title{
+  color: #FF5959;
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+.footer-sub-title{
+  color: gray;
+  margin-top: 0;
 }
