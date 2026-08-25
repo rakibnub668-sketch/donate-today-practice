@@ -38,6 +38,7 @@
   padding: 16px 21px;
   border: none;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .section-title{
@@ -233,6 +234,7 @@ form{
   padding: 14px 42px;
   font-size: 16px;
   border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
   
 }
 /* Footer Section */
